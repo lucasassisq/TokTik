@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A006C0A229D35D8F000BAFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0A129D35D8F000BAFA9 /* AppDelegate.swift */; };
+		A006C0A429D35D8F000BAFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0A329D35D8F000BAFA9 /* SceneDelegate.swift */; };
+		A006C0A629D35D8F000BAFA9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0A529D35D8F000BAFA9 /* FeedViewController.swift */; };
+		A006C0AB29D35D92000BAFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A006C0AA29D35D92000BAFA9 /* Assets.xcassets */; };
+		A006C0AE29D35D92000BAFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A006C0AC29D35D92000BAFA9 /* LaunchScreen.storyboard */; };
+		A006C0B829D35E5A000BAFA9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0B729D35E5A000BAFA9 /* AppCoordinator.swift */; };
+		A006C0BA29D35E8A000BAFA9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0B929D35E8A000BAFA9 /* Coordinator.swift */; };
+		A006C0BE29D35F51000BAFA9 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = A006C0BD29D35F51000BAFA9 /* mock.json */; };
+		A006C0C029D35FEE000BAFA9 /* Look.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0BF29D35FEE000BAFA9 /* Look.swift */; };
+		A006C0C529D36056000BAFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0C429D36056000BAFA9 /* ViewController.swift */; };
+		A006C0CC29D36126000BAFA9 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0CB29D36126000BAFA9 /* FeedViewModel.swift */; };
+		A006C0CE29D361BA000BAFA9 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006C0CD29D361BA000BAFA9 /* FeedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A006C09E29D35D8F000BAFA9 /* TokTik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokTik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A006C0A129D35D8F000BAFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A006C0A329D35D8F000BAFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A006C0A529D35D8F000BAFA9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A006C0AA29D35D92000BAFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A006C0AD29D35D92000BAFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A006C0AF29D35D92000BAFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A006C0B729D35E5A000BAFA9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A006C0B929D35E8A000BAFA9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A006C0BD29D35F51000BAFA9 /* mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		A006C0BF29D35FEE000BAFA9 /* Look.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Look.swift; sourceTree = "<group>"; };
+		A006C0C429D36056000BAFA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A006C0CB29D36126000BAFA9 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		A006C0CD29D361BA000BAFA9 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A006C09B29D35D8F000BAFA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A006C09529D35D8F000BAFA9 = {
+			isa = PBXGroup;
+			children = (
+				A006C0A029D35D8F000BAFA9 /* TokTik */,
+				A006C09F29D35D8F000BAFA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A006C09F29D35D8F000BAFA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A006C09E29D35D8F000BAFA9 /* TokTik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A006C0A029D35D8F000BAFA9 /* TokTik */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0AF29D35D92000BAFA9 /* Info.plist */,
+				A006C0B529D35E4C000BAFA9 /* Core */,
+				A006C0C829D360CA000BAFA9 /* Scenes */,
+				A006C0C629D36075000BAFA9 /* SupportFiles */,
+			);
+			path = TokTik;
+			sourceTree = "<group>";
+		};
+		A006C0B529D35E4C000BAFA9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0C229D36042000BAFA9 /* Base */,
+				A006C0BC29D35F36000BAFA9 /* Mock */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A006C0B629D35E51000BAFA9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0B929D35E8A000BAFA9 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A006C0BC29D35F36000BAFA9 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0BD29D35F51000BAFA9 /* mock.json */,
+				A006C0BF29D35FEE000BAFA9 /* Look.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		A006C0C229D36042000BAFA9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0C329D3604E000BAFA9 /* ViewController */,
+				A006C0B629D35E51000BAFA9 /* Coordinator */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A006C0C329D3604E000BAFA9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0C429D36056000BAFA9 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A006C0C629D36075000BAFA9 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0A129D35D8F000BAFA9 /* AppDelegate.swift */,
+				A006C0A329D35D8F000BAFA9 /* SceneDelegate.swift */,
+				A006C0AA29D35D92000BAFA9 /* Assets.xcassets */,
+				A006C0AC29D35D92000BAFA9 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		A006C0C729D360C1000BAFA9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0B729D35E5A000BAFA9 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A006C0C829D360CA000BAFA9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0C929D36114000BAFA9 /* Feed */,
+				A006C0C729D360C1000BAFA9 /* Coordinator */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A006C0C929D36114000BAFA9 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A006C0A529D35D8F000BAFA9 /* FeedViewController.swift */,
+				A006C0CB29D36126000BAFA9 /* FeedViewModel.swift */,
+				A006C0CD29D361BA000BAFA9 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A006C09D29D35D8F000BAFA9 /* TokTik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A006C0B229D35D92000BAFA9 /* Build configuration list for PBXNativeTarget "TokTik" */;
+			buildPhases = (
+				A006C09A29D35D8F000BAFA9 /* Sources */,
+				A006C09B29D35D8F000BAFA9 /* Frameworks */,
+				A006C09C29D35D8F000BAFA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokTik;
+			productName = TokTik;
+			productReference = A006C09E29D35D8F000BAFA9 /* TokTik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A006C09629D35D8F000BAFA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A006C09D29D35D8F000BAFA9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A006C09929D35D8F000BAFA9 /* Build configuration list for PBXProject "TokTik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A006C09529D35D8F000BAFA9;
+			productRefGroup = A006C09F29D35D8F000BAFA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A006C09D29D35D8F000BAFA9 /* TokTik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A006C09C29D35D8F000BAFA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A006C0AE29D35D92000BAFA9 /* LaunchScreen.storyboard in Resources */,
+				A006C0AB29D35D92000BAFA9 /* Assets.xcassets in Resources */,
+				A006C0BE29D35F51000BAFA9 /* mock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A006C09A29D35D8F000BAFA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A006C0B829D35E5A000BAFA9 /* AppCoordinator.swift in Sources */,
+				A006C0CE29D361BA000BAFA9 /* FeedView.swift in Sources */,
+				A006C0A629D35D8F000BAFA9 /* FeedViewController.swift in Sources */,
+				A006C0C029D35FEE000BAFA9 /* Look.swift in Sources */,
+				A006C0BA29D35E8A000BAFA9 /* Coordinator.swift in Sources */,
+				A006C0C529D36056000BAFA9 /* ViewController.swift in Sources */,
+				A006C0A229D35D8F000BAFA9 /* AppDelegate.swift in Sources */,
+				A006C0CC29D36126000BAFA9 /* FeedViewModel.swift in Sources */,
+				A006C0A429D35D8F000BAFA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A006C0AC29D35D92000BAFA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A006C0AD29D35D92000BAFA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A006C0B029D35D92000BAFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A006C0B129D35D92000BAFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A006C0B329D35D92000BAFA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokTik/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avantosft.TokTik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A006C0B429D35D92000BAFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TokTik/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avantosft.TokTik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A006C09929D35D8F000BAFA9 /* Build configuration list for PBXProject "TokTik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A006C0B029D35D92000BAFA9 /* Debug */,
+				A006C0B129D35D92000BAFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A006C0B229D35D92000BAFA9 /* Build configuration list for PBXNativeTarget "TokTik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A006C0B329D35D92000BAFA9 /* Debug */,
+				A006C0B429D35D92000BAFA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A006C09629D35D8F000BAFA9 /* Project object */;
+}
